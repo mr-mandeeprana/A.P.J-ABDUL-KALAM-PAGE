@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.cointainer{
+    background-color: rgb(177, 207, 233);
+    border: 10px solid black;
+    width: 1000px;
+    min-height: 1500px;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.image_cointainer,img{
+    height: 300px;
+    width: 320px;
+    border-radius: 40%;
+    margin: 10px 20px 10px 10px;
+}
+.top_section h1{
+justify-content: center;
+font-weight: bold;
+text-transform: uppercase;
+font-size: 50px;
+color: #000;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.top_section h4{
+    text-align: end;
+}
+.about_section {
+    margin-top: 50px;
+    
+}
+.about_section h2{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.about_section p{
+    font-size: 20px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    line-height: 30px;
+    letter-spacing: 1.5px;
+
+}
+.bio_section{
+margin-top: 30px;
+}
+.bio_section h3{
+    font-size: 70px;
+    font-weight: 400px;
+    margin-top: 40px;
+
+    
+}
+.bio_section ul{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    
+}
